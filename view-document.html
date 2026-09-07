@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #525659;
+  }
+  .pdf-frame {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    display: block;
+  }
+  .fallback {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+  }
+  .fallback a {
+    color: #4da3ff;
+  }
+</style>
+</head>
+<body>
+  <iframe class="pdf-frame" src="https://files.catbox.moe/lrm2ic.pdf" title="Document Viewer">
+    <p class="fallback">
+      Your browser doesn't support inline PDF viewing.
+      <a href="https://files.catbox.moe/lrm2ic.pdf">Click here to open the document</a>.
+    </p>
+  </iframe>
+</body>
+</html>
